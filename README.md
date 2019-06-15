@@ -3,6 +3,8 @@ Handwritten to text conversion of DEVNAGARI document.
 
 classifycode.m classifies the DEVNAGARI letters using ALEXNET(Pretrained Network in MATLAB)
 
+Use dataset of DEVNAGARI lettrs (barakhadi) images of size 227x227x3 size.
+
 
 final_code.m  segments the words from the scanned document
 
