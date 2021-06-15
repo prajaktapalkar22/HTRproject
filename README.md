@@ -1,17 +1,17 @@
-# HTRproject
-Handwritten to text conversion of DEVNAGARI document.
 
-classifycode.m classifies the DEVNAGARI letters using ALEXNET(Pretrained Network in MATLAB)
+# Handwritten to text conversion of DEVNAGARI document.
 
-Use dataset of DEVNAGARI lettrs (barakhadi) images of size 227x227x3 size.
+* Classified DEVNAGARI letters using ALEXNET (Pretrained Convolutional Neural Network in MATLAB) (classifycode.m)
 
+* Used dataset of DEVNAGARI letters (barakhadi) images of size 227x227x3
 
-final_code.m  segments the words from the scanned document
+* Segmented the scanned document into sentences, words and then individual letters (final_code.m and letter.m)
 
+* Consolidated everything into app providing GUI for project using MATLAB App Designer
 
-letter.m takes segmented words from above code as input and further segment that into letters
-
-All this codes are combined into app providing GUI for  project
+* Converted text will be available on UI which can be copied further
 
 Video Link :
 https://drive.google.com/file/d/1whb15c2FVA4-EAuSJyBhVsy4zmnheYTG/view?usp=sharing
+
+
